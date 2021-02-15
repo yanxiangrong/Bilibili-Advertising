@@ -4,7 +4,7 @@
     <div style="display: flex; flex-direction: row">
       <div style="display: flex; flex-direction: column">
         <div style="display: flex; flex-direction: row; margin-top: 1em; margin-left: 2em">
-          <img src="src/assets/bilibili.png" style="height: 5em; width: 15em" alt="bilibili_logo">
+          <img src="/src/assets/bilibili.png" style="height: 5em; width: 15em" alt="bilibili_logo">
           <div style="display: flex; flex-direction: column; margin-left: 1em">
             <div class="title">哔哩哔哩大会员</div>
             <div class="title2">你感兴趣的视频，都在哔哩哔哩！</div>
@@ -13,11 +13,11 @@
         <price-list style="margin-left: 25%; margin-top: 10%"/>
       </div>
 <!--      <button @click="changePic">test</button>-->
-      <img v-if="show1" class="myPicture" id="pic22" style="margin-right: 15%;margin-left: auto ; width: 25%" src="src/assets/22.png" alt="22">
-      <img v-if="show2" class="myPicture" id="pic33" style="margin-right: 15%;margin-left: auto ; width: 25%" src="src/assets/33.png" alt="33">
+      <img v-if="show1" class="myPicture" id="pic22" style="margin-right: 15%;margin-left: auto ; width: 25%" src="/src/assets/22.png" alt="22">
+      <img v-if="show2" class="myPicture" id="pic33" style="margin-right: 15%;margin-left: auto ; width: 25%" src="/src/assets/33.png" alt="33">
     </div>
   </div>
-  <audio autoplay loop src="src/assets/DJ%20UBUR%20UBUR%20REMIX.mp3"></audio>
+  <audio autoplay loop src="/src/assets/DJ%20UBUR%20UBUR%20REMIX.mp3"></audio>
 </template>
 
 <script lang="ts">
